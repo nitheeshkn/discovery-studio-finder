@@ -1,0 +1,1 @@
+import {getListings} from '../lib/listings';import Dashboard from './ui';export default async function Home(){const data=await getListings();return <Dashboard {...data}/>}

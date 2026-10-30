@@ -1,0 +1,1 @@
+import './globals.css';import type {Metadata} from 'next';export const metadata:Metadata={title:'StudioScout | Discovery Gardens',description:'Private rental shortlist for L-shaped studios'};export default function Layout({children}:{children:React.ReactNode}){return <html lang='en'><body>{children}</body></html>}

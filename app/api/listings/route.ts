@@ -1,0 +1,1 @@
+import {NextResponse} from 'next/server';import {getListings} from '../../../lib/listings';export async function GET(){return NextResponse.json(await getListings(),{headers:{'Cache-Control':'no-store'}})}
